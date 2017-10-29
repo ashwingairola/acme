@@ -36,7 +36,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES ('Aadya Joshi','CEO',NULL),('Babbar Poora Jhalla','Project Manager','Aadya Joshi'),('Babloo Prasad Chaurasiya','Intern','Golu Molu'),('Badmash Babli','HR Manager','Aadya Joshi'),('Chunnu','HR','Badmash Babli'),('defefwf','asfasfasf','dsagagwe'),('egegegdg','dsgadgasgs','sgsagasgeg'),('Golu Molu','Developer','Babloo Prasad Chaurasiya'),('Happy Singh','HR','Babbar Poora Jhalla'),('wefwfwf','sfasfaf','wfwfwf'),('wfsfasfw','wfsfasfw','wfsfawf');
+INSERT INTO `employee` VALUES ('Aadya Joshi','CEO',NULL),('Akshat Upadhyay','HR','Sarthak Negi'),('Amandeep Tomar','Developer','Ashwin Gairola'),('Apoorv Singh','HR','Sarthak Negi'),('Ashwin Gairola','Project Manager','Aadya Joshi'),('Pranjal Agarwal','Intern','Amandeep Tomar'),('Sarthak Negi','HR Manager','Aadya Joshi');
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-10-28 17:57:05
+-- Dump completed on 2017-10-29 17:10:40

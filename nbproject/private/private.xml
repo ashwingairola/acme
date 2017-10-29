@@ -3,8 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ashwin/NetBeansProjects/acme/web/heirarchy.jsp</file>
+            <file>file:/home/ashwin/NetBeansProjects/acme/web/main.js</file>
+            <file>file:/home/ashwin/NetBeansProjects/acme/web/index.html</file>
             <file>file:/home/ashwin/NetBeansProjects/acme/src/java/com/acme/model/DBManager.java</file>
+            <file>file:/home/ashwin/NetBeansProjects/acme/web/heirarchy.html</file>
             <file>file:/home/ashwin/NetBeansProjects/acme/src/java/com/acme/controller/GetEmployeesServlet.java</file>
         </group>
     </open-files>
