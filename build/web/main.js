@@ -13,9 +13,7 @@ request.onreadystatechange = function()
         employeeNames[i] = employees[i].empName;
     }
     
-//    console.log(employees);
     setFirstElement();
-    console.log(employees[0].reportingManager);
 
     displayHierarchy(employees[0].reportingManager, 
     document.getElementById('list'));
@@ -53,7 +51,6 @@ function displayHierarchy(manager, parentElement)
 
                 if(hasSubordinate(employee) === 1)
                 {
-                    console.log('In here!');
                     var nestedList = document.createElement('ul');
                     listItem.appendChild(nestedList);
                     displayHierarchy(employee.empName, nestedList);
@@ -66,12 +63,9 @@ function displayHierarchy(manager, parentElement)
 function hasSubordinate(employee)
 {
     for(var i = 0; i < employees.length; i++)
-    {   
-        console.log(employee);
-        console.log(employees[i].reportingManager);
+    {
         if(employees[i].reportingManager === employee.empName)
         {
-            console.log("Found! " + employees[i].empName);
             return 1;
         }
     }
